@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<!-- --------Fonts------------------ -->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link
+		href="https://fonts.googleapis.com/css2?family=Mali:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap"
+		rel="stylesheet">
+	<!-- --------Fonts------------------ -->
+
+	<meta charset="UTF-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<!-- --------Normalize------------------ -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+		integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
+		crossorigin="anonymous" referrerpolicy="no-referrer" />
+	<!-- --------Normalize------------------ -->
+
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="./css/styles.css" />
+	<link rel="stylesheet" type="text/css" href="./css/reset.css" />
+</head>
+
+<body>
+	<div class="container">
+		<div class="clock">
+
+			<div id="sec" class="circle circle1" style="--hand_color:#04fc45;"><i></i></div>
+			<div id="min" class="circle circle2" style="--hand_color:#fca504;"><i></i></div>
+			<div id="hour" class="circle circle3" style="--hand_color:#fc04a5;"><i></i></div>
+
+			<span style="--i:1;"><b>1</b></span>
+			<span style="--i:2;"><b>2</b></span>
+			<span style="--i:3;"><b>3</b></span>
+			<span style="--i:4;"><b>4</b></span>
+			<span style="--i:5;"><b>5</b></span>
+			<span style="--i:6;"><b>6</b></span>
+			<span style="--i:7;"><b>7</b></span>
+			<span style="--i:8;"><b>8</b></span>
+			<span style="--i:9;"><b>9</b></span>
+			<span style="--i:10;"><b>10</b></span>
+			<span style="--i:11;"><b>11</b></span>
+			<span style="--i:12;"><b>12</b></span>
+		</div>
+		<!-- Digital Clock -->
+		<div class="digital-clock" id="time">
+			<div id="hours" style="--hand_color:#fc04a5;">00</div>
+			<div id="minutes" style="--hand_color:#fca504;">00</div>
+			<div id="seconds" style="--hand_color:#04fc45;">00</div>
+			<div id="ampm">AM</div>
+		</div>
+	</div>
+	<script src="./js/main.js"></script>
+</body>
+
+</html>
